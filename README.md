@@ -2,13 +2,14 @@
 
 An AI agent cleans up a chaotic, "haunted" Downloads folder: it sorts files into folders, renames junk, traps duplicates, and issues an official certificate saying the folder has been cleansed. The agent never deletes a single file.
 
-Built with [Mel](https://www.openmel.dev/), the agentic terminal, as a demo for **Trick or Build**, a Halloween build night in Miami.
+Built with [Mel](https://www.openmel.dev/), the agentic terminal, for the [**Trick or Build** hackathon](https://luma.com/wp7gehbn) (Mel × Prompt Anything × AI Builders), a Halloween build night in Miami.
 
 ---
 
 ## Contents
 
 - [What this project does](#what-this-project-does)
+- [The exorcism certificate](#the-exorcism-certificate)
 - [What is Mel?](#what-is-mel)
 - [Why I chose Mel](#why-i-chose-mel)
 - [How it works](#how-it-works)
@@ -34,6 +35,14 @@ Starting from a messy folder of 40 files, the agent:
 **The result in this repo:** 29 files sorted into 7 folders, 11 duplicates contained, and all 40 files accounted for.
 
 > This repository holds the folder **after** the exorcism. To watch the full before-and-after, follow [Try it yourself](#try-it-yourself).
+
+## The exorcism certificate
+
+Mel finished the job by issuing an official certificate of cleansing. Here's the first page; open [`exorcism-report.pdf`](exorcism-report.pdf) for the full report.
+
+<p align="center">
+  <a href="exorcism-report.pdf"><img src="docs/exorcism-report-preview.png" alt="Exorcism Report: an official paranormal certificate listing files sorted into each folder, 11 duplicate spirits trapped, and the spookiest files recovered" width="600"></a>
+</p>
 
 ## What is Mel?
 
@@ -134,6 +143,8 @@ git clean -fd
 
 ```
 .
+├── docs/
+│   └── exorcism-report-preview.png  # Image of the certificate for this README
 ├── exorcism-report.pdf        # The generated certificate
 └── haunted-downloads/
     ├── Audio/                 # .mp3 files
@@ -153,4 +164,4 @@ git clean -fd
 
 ---
 
-Built by [Katie](https://github.com/b-urge) with Mel for Trick or Build: Mel × Prompt Anything × AI Builders, Miami, October 2026.
+Built by [Katie](https://github.com/b-urge) with Mel for the [Trick or Build hackathon](https://luma.com/wp7gehbn): Mel × Prompt Anything × AI Builders, Miami Dade College, October 2026.
