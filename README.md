@@ -2,8 +2,6 @@
 
 Downloads Exorcist organizes an unruly `haunted-downloads` folder into clear, purpose-built subfolders.
 
-🔗 Hackathon: https://luma.com/wp7gehbn
-
 ## What it does
 
 Downloads Exorcist classifies files and then:
